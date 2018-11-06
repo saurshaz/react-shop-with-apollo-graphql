@@ -1,0 +1,1413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressForm component test 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddressForm
+    product={
+        Object {
+            "description": "description",
+            "miniDescription": "mini description",
+          }
+    }
+    refresh={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <WithStyles(Typography)
+          gutterBottom={true}
+          variant="h6"
+>
+          Shipping address
+</WithStyles(Typography)>,
+        <WithStyles(Grid)
+          container={true}
+          spacing={24}
+>
+          <WithStyles(Grid)
+                    item={true}
+                    sm={6}
+                    xs={12}
+          >
+                    <TextField
+                              autoComplete="fname"
+                              fullWidth={true}
+                              id="firstName"
+                              label="First name"
+                              name="firstName"
+                              required={true}
+                              select={false}
+                              variant="standard"
+                    />
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+                    item={true}
+                    sm={6}
+                    xs={12}
+          >
+                    <TextField
+                              autoComplete="lname"
+                              fullWidth={true}
+                              id="lastName"
+                              label="Last name"
+                              name="lastName"
+                              required={true}
+                              select={false}
+                              variant="standard"
+                    />
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+                    item={true}
+                    xs={12}
+          >
+                    <TextField
+                              autoComplete="billing address-line1"
+                              fullWidth={true}
+                              id="address1"
+                              label="Address line 1"
+                              name="address1"
+                              required={true}
+                              select={false}
+                              variant="standard"
+                    />
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+                    item={true}
+                    xs={12}
+          >
+                    <TextField
+                              autoComplete="billing address-line2"
+                              fullWidth={true}
+                              id="addiress2"
+                              label="Address line 2"
+                              name="addiress2"
+                              required={false}
+                              select={false}
+                              variant="standard"
+                    />
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+                    item={true}
+                    sm={6}
+                    xs={12}
+          >
+                    <TextField
+                              autoComplete="billing address-level2"
+                              fullWidth={true}
+                              id="city"
+                              label="City"
+                              name="city"
+                              required={true}
+                              select={false}
+                              variant="standard"
+                    />
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+                    item={true}
+                    sm={6}
+                    xs={12}
+          >
+                    <TextField
+                              fullWidth={true}
+                              id="state"
+                              label="State/Province/Region"
+                              name="state"
+                              required={false}
+                              select={false}
+                              variant="standard"
+                    />
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+                    item={true}
+                    sm={6}
+                    xs={12}
+          >
+                    <TextField
+                              autoComplete="billing postal-code"
+                              fullWidth={true}
+                              id="zip"
+                              label="Zip / Postal code"
+                              name="zip"
+                              required={true}
+                              select={false}
+                              variant="standard"
+                    />
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+                    item={true}
+                    sm={6}
+                    xs={12}
+          >
+                    <TextField
+                              autoComplete="billing country"
+                              fullWidth={true}
+                              id="country"
+                              label="Country"
+                              name="country"
+                              required={true}
+                              select={false}
+                              variant="standard"
+                    />
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+                    item={true}
+                    xs={12}
+          >
+                    <WithStyles(FormControlLabel)
+                              control={
+                                        <WithStyles(Checkbox)
+                                                  color="secondary"
+                                                  name="saveAddress"
+                                                  value="yes"
+                                        />
+                              }
+                              label="Use this address for payment details"
+                    />
+          </WithStyles(Grid)>
+</WithStyles(Grid)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Shipping address",
+          "gutterBottom": true,
+          "variant": "h6",
+        },
+        "ref": null,
+        "rendered": "Shipping address",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Grid)
+              item={true}
+              sm={6}
+              xs={12}
+>
+              <TextField
+                            autoComplete="fname"
+                            fullWidth={true}
+                            id="firstName"
+                            label="First name"
+                            name="firstName"
+                            required={true}
+                            select={false}
+                            variant="standard"
+              />
+</WithStyles(Grid)>,
+            <WithStyles(Grid)
+              item={true}
+              sm={6}
+              xs={12}
+>
+              <TextField
+                            autoComplete="lname"
+                            fullWidth={true}
+                            id="lastName"
+                            label="Last name"
+                            name="lastName"
+                            required={true}
+                            select={false}
+                            variant="standard"
+              />
+</WithStyles(Grid)>,
+            <WithStyles(Grid)
+              item={true}
+              xs={12}
+>
+              <TextField
+                            autoComplete="billing address-line1"
+                            fullWidth={true}
+                            id="address1"
+                            label="Address line 1"
+                            name="address1"
+                            required={true}
+                            select={false}
+                            variant="standard"
+              />
+</WithStyles(Grid)>,
+            <WithStyles(Grid)
+              item={true}
+              xs={12}
+>
+              <TextField
+                            autoComplete="billing address-line2"
+                            fullWidth={true}
+                            id="addiress2"
+                            label="Address line 2"
+                            name="addiress2"
+                            required={false}
+                            select={false}
+                            variant="standard"
+              />
+</WithStyles(Grid)>,
+            <WithStyles(Grid)
+              item={true}
+              sm={6}
+              xs={12}
+>
+              <TextField
+                            autoComplete="billing address-level2"
+                            fullWidth={true}
+                            id="city"
+                            label="City"
+                            name="city"
+                            required={true}
+                            select={false}
+                            variant="standard"
+              />
+</WithStyles(Grid)>,
+            <WithStyles(Grid)
+              item={true}
+              sm={6}
+              xs={12}
+>
+              <TextField
+                            fullWidth={true}
+                            id="state"
+                            label="State/Province/Region"
+                            name="state"
+                            required={false}
+                            select={false}
+                            variant="standard"
+              />
+</WithStyles(Grid)>,
+            <WithStyles(Grid)
+              item={true}
+              sm={6}
+              xs={12}
+>
+              <TextField
+                            autoComplete="billing postal-code"
+                            fullWidth={true}
+                            id="zip"
+                            label="Zip / Postal code"
+                            name="zip"
+                            required={true}
+                            select={false}
+                            variant="standard"
+              />
+</WithStyles(Grid)>,
+            <WithStyles(Grid)
+              item={true}
+              sm={6}
+              xs={12}
+>
+              <TextField
+                            autoComplete="billing country"
+                            fullWidth={true}
+                            id="country"
+                            label="Country"
+                            name="country"
+                            required={true}
+                            select={false}
+                            variant="standard"
+              />
+</WithStyles(Grid)>,
+            <WithStyles(Grid)
+              item={true}
+              xs={12}
+>
+              <WithStyles(FormControlLabel)
+                            control={
+                                          <WithStyles(Checkbox)
+                                                        color="secondary"
+                                                        name="saveAddress"
+                                                        value="yes"
+                                          />
+                            }
+                            label="Use this address for payment details"
+              />
+</WithStyles(Grid)>,
+          ],
+          "container": true,
+          "spacing": 24,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TextField
+                autoComplete="fname"
+                fullWidth={true}
+                id="firstName"
+                label="First name"
+                name="firstName"
+                required={true}
+                select={false}
+                variant="standard"
+/>,
+              "item": true,
+              "sm": 6,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoComplete": "fname",
+                "fullWidth": true,
+                "id": "firstName",
+                "label": "First name",
+                "name": "firstName",
+                "required": true,
+                "select": false,
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TextField
+                autoComplete="lname"
+                fullWidth={true}
+                id="lastName"
+                label="Last name"
+                name="lastName"
+                required={true}
+                select={false}
+                variant="standard"
+/>,
+              "item": true,
+              "sm": 6,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoComplete": "lname",
+                "fullWidth": true,
+                "id": "lastName",
+                "label": "Last name",
+                "name": "lastName",
+                "required": true,
+                "select": false,
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TextField
+                autoComplete="billing address-line1"
+                fullWidth={true}
+                id="address1"
+                label="Address line 1"
+                name="address1"
+                required={true}
+                select={false}
+                variant="standard"
+/>,
+              "item": true,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoComplete": "billing address-line1",
+                "fullWidth": true,
+                "id": "address1",
+                "label": "Address line 1",
+                "name": "address1",
+                "required": true,
+                "select": false,
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TextField
+                autoComplete="billing address-line2"
+                fullWidth={true}
+                id="addiress2"
+                label="Address line 2"
+                name="addiress2"
+                required={false}
+                select={false}
+                variant="standard"
+/>,
+              "item": true,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoComplete": "billing address-line2",
+                "fullWidth": true,
+                "id": "addiress2",
+                "label": "Address line 2",
+                "name": "addiress2",
+                "required": false,
+                "select": false,
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TextField
+                autoComplete="billing address-level2"
+                fullWidth={true}
+                id="city"
+                label="City"
+                name="city"
+                required={true}
+                select={false}
+                variant="standard"
+/>,
+              "item": true,
+              "sm": 6,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoComplete": "billing address-level2",
+                "fullWidth": true,
+                "id": "city",
+                "label": "City",
+                "name": "city",
+                "required": true,
+                "select": false,
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TextField
+                fullWidth={true}
+                id="state"
+                label="State/Province/Region"
+                name="state"
+                required={false}
+                select={false}
+                variant="standard"
+/>,
+              "item": true,
+              "sm": 6,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "fullWidth": true,
+                "id": "state",
+                "label": "State/Province/Region",
+                "name": "state",
+                "required": false,
+                "select": false,
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TextField
+                autoComplete="billing postal-code"
+                fullWidth={true}
+                id="zip"
+                label="Zip / Postal code"
+                name="zip"
+                required={true}
+                select={false}
+                variant="standard"
+/>,
+              "item": true,
+              "sm": 6,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoComplete": "billing postal-code",
+                "fullWidth": true,
+                "id": "zip",
+                "label": "Zip / Postal code",
+                "name": "zip",
+                "required": true,
+                "select": false,
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TextField
+                autoComplete="billing country"
+                fullWidth={true}
+                id="country"
+                label="Country"
+                name="country"
+                required={true}
+                select={false}
+                variant="standard"
+/>,
+              "item": true,
+              "sm": 6,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoComplete": "billing country",
+                "fullWidth": true,
+                "id": "country",
+                "label": "Country",
+                "name": "country",
+                "required": true,
+                "select": false,
+                "variant": "standard",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(FormControlLabel)
+                control={
+                                <WithStyles(Checkbox)
+                                                color="secondary"
+                                                name="saveAddress"
+                                                value="yes"
+                                />
+                }
+                label="Use this address for payment details"
+/>,
+              "item": true,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "control": <WithStyles(Checkbox)
+                  color="secondary"
+                  name="saveAddress"
+                  value="yes"
+/>,
+                "label": "Use this address for payment details",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <WithStyles(Typography)
+            gutterBottom={true}
+            variant="h6"
+>
+            Shipping address
+</WithStyles(Typography)>,
+          <WithStyles(Grid)
+            container={true}
+            spacing={24}
+>
+            <WithStyles(Grid)
+                        item={true}
+                        sm={6}
+                        xs={12}
+            >
+                        <TextField
+                                    autoComplete="fname"
+                                    fullWidth={true}
+                                    id="firstName"
+                                    label="First name"
+                                    name="firstName"
+                                    required={true}
+                                    select={false}
+                                    variant="standard"
+                        />
+            </WithStyles(Grid)>
+            <WithStyles(Grid)
+                        item={true}
+                        sm={6}
+                        xs={12}
+            >
+                        <TextField
+                                    autoComplete="lname"
+                                    fullWidth={true}
+                                    id="lastName"
+                                    label="Last name"
+                                    name="lastName"
+                                    required={true}
+                                    select={false}
+                                    variant="standard"
+                        />
+            </WithStyles(Grid)>
+            <WithStyles(Grid)
+                        item={true}
+                        xs={12}
+            >
+                        <TextField
+                                    autoComplete="billing address-line1"
+                                    fullWidth={true}
+                                    id="address1"
+                                    label="Address line 1"
+                                    name="address1"
+                                    required={true}
+                                    select={false}
+                                    variant="standard"
+                        />
+            </WithStyles(Grid)>
+            <WithStyles(Grid)
+                        item={true}
+                        xs={12}
+            >
+                        <TextField
+                                    autoComplete="billing address-line2"
+                                    fullWidth={true}
+                                    id="addiress2"
+                                    label="Address line 2"
+                                    name="addiress2"
+                                    required={false}
+                                    select={false}
+                                    variant="standard"
+                        />
+            </WithStyles(Grid)>
+            <WithStyles(Grid)
+                        item={true}
+                        sm={6}
+                        xs={12}
+            >
+                        <TextField
+                                    autoComplete="billing address-level2"
+                                    fullWidth={true}
+                                    id="city"
+                                    label="City"
+                                    name="city"
+                                    required={true}
+                                    select={false}
+                                    variant="standard"
+                        />
+            </WithStyles(Grid)>
+            <WithStyles(Grid)
+                        item={true}
+                        sm={6}
+                        xs={12}
+            >
+                        <TextField
+                                    fullWidth={true}
+                                    id="state"
+                                    label="State/Province/Region"
+                                    name="state"
+                                    required={false}
+                                    select={false}
+                                    variant="standard"
+                        />
+            </WithStyles(Grid)>
+            <WithStyles(Grid)
+                        item={true}
+                        sm={6}
+                        xs={12}
+            >
+                        <TextField
+                                    autoComplete="billing postal-code"
+                                    fullWidth={true}
+                                    id="zip"
+                                    label="Zip / Postal code"
+                                    name="zip"
+                                    required={true}
+                                    select={false}
+                                    variant="standard"
+                        />
+            </WithStyles(Grid)>
+            <WithStyles(Grid)
+                        item={true}
+                        sm={6}
+                        xs={12}
+            >
+                        <TextField
+                                    autoComplete="billing country"
+                                    fullWidth={true}
+                                    id="country"
+                                    label="Country"
+                                    name="country"
+                                    required={true}
+                                    select={false}
+                                    variant="standard"
+                        />
+            </WithStyles(Grid)>
+            <WithStyles(Grid)
+                        item={true}
+                        xs={12}
+            >
+                        <WithStyles(FormControlLabel)
+                                    control={
+                                                <WithStyles(Checkbox)
+                                                            color="secondary"
+                                                            name="saveAddress"
+                                                            value="yes"
+                                                />
+                                    }
+                                    label="Use this address for payment details"
+                        />
+            </WithStyles(Grid)>
+</WithStyles(Grid)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Shipping address",
+            "gutterBottom": true,
+            "variant": "h6",
+          },
+          "ref": null,
+          "rendered": "Shipping address",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Grid)
+                item={true}
+                sm={6}
+                xs={12}
+>
+                <TextField
+                                autoComplete="fname"
+                                fullWidth={true}
+                                id="firstName"
+                                label="First name"
+                                name="firstName"
+                                required={true}
+                                select={false}
+                                variant="standard"
+                />
+</WithStyles(Grid)>,
+              <WithStyles(Grid)
+                item={true}
+                sm={6}
+                xs={12}
+>
+                <TextField
+                                autoComplete="lname"
+                                fullWidth={true}
+                                id="lastName"
+                                label="Last name"
+                                name="lastName"
+                                required={true}
+                                select={false}
+                                variant="standard"
+                />
+</WithStyles(Grid)>,
+              <WithStyles(Grid)
+                item={true}
+                xs={12}
+>
+                <TextField
+                                autoComplete="billing address-line1"
+                                fullWidth={true}
+                                id="address1"
+                                label="Address line 1"
+                                name="address1"
+                                required={true}
+                                select={false}
+                                variant="standard"
+                />
+</WithStyles(Grid)>,
+              <WithStyles(Grid)
+                item={true}
+                xs={12}
+>
+                <TextField
+                                autoComplete="billing address-line2"
+                                fullWidth={true}
+                                id="addiress2"
+                                label="Address line 2"
+                                name="addiress2"
+                                required={false}
+                                select={false}
+                                variant="standard"
+                />
+</WithStyles(Grid)>,
+              <WithStyles(Grid)
+                item={true}
+                sm={6}
+                xs={12}
+>
+                <TextField
+                                autoComplete="billing address-level2"
+                                fullWidth={true}
+                                id="city"
+                                label="City"
+                                name="city"
+                                required={true}
+                                select={false}
+                                variant="standard"
+                />
+</WithStyles(Grid)>,
+              <WithStyles(Grid)
+                item={true}
+                sm={6}
+                xs={12}
+>
+                <TextField
+                                fullWidth={true}
+                                id="state"
+                                label="State/Province/Region"
+                                name="state"
+                                required={false}
+                                select={false}
+                                variant="standard"
+                />
+</WithStyles(Grid)>,
+              <WithStyles(Grid)
+                item={true}
+                sm={6}
+                xs={12}
+>
+                <TextField
+                                autoComplete="billing postal-code"
+                                fullWidth={true}
+                                id="zip"
+                                label="Zip / Postal code"
+                                name="zip"
+                                required={true}
+                                select={false}
+                                variant="standard"
+                />
+</WithStyles(Grid)>,
+              <WithStyles(Grid)
+                item={true}
+                sm={6}
+                xs={12}
+>
+                <TextField
+                                autoComplete="billing country"
+                                fullWidth={true}
+                                id="country"
+                                label="Country"
+                                name="country"
+                                required={true}
+                                select={false}
+                                variant="standard"
+                />
+</WithStyles(Grid)>,
+              <WithStyles(Grid)
+                item={true}
+                xs={12}
+>
+                <WithStyles(FormControlLabel)
+                                control={
+                                                <WithStyles(Checkbox)
+                                                                color="secondary"
+                                                                name="saveAddress"
+                                                                value="yes"
+                                                />
+                                }
+                                label="Use this address for payment details"
+                />
+</WithStyles(Grid)>,
+            ],
+            "container": true,
+            "spacing": 24,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TextField
+                  autoComplete="fname"
+                  fullWidth={true}
+                  id="firstName"
+                  label="First name"
+                  name="firstName"
+                  required={true}
+                  select={false}
+                  variant="standard"
+/>,
+                "item": true,
+                "sm": 6,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "autoComplete": "fname",
+                  "fullWidth": true,
+                  "id": "firstName",
+                  "label": "First name",
+                  "name": "firstName",
+                  "required": true,
+                  "select": false,
+                  "variant": "standard",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TextField
+                  autoComplete="lname"
+                  fullWidth={true}
+                  id="lastName"
+                  label="Last name"
+                  name="lastName"
+                  required={true}
+                  select={false}
+                  variant="standard"
+/>,
+                "item": true,
+                "sm": 6,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "autoComplete": "lname",
+                  "fullWidth": true,
+                  "id": "lastName",
+                  "label": "Last name",
+                  "name": "lastName",
+                  "required": true,
+                  "select": false,
+                  "variant": "standard",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TextField
+                  autoComplete="billing address-line1"
+                  fullWidth={true}
+                  id="address1"
+                  label="Address line 1"
+                  name="address1"
+                  required={true}
+                  select={false}
+                  variant="standard"
+/>,
+                "item": true,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "autoComplete": "billing address-line1",
+                  "fullWidth": true,
+                  "id": "address1",
+                  "label": "Address line 1",
+                  "name": "address1",
+                  "required": true,
+                  "select": false,
+                  "variant": "standard",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TextField
+                  autoComplete="billing address-line2"
+                  fullWidth={true}
+                  id="addiress2"
+                  label="Address line 2"
+                  name="addiress2"
+                  required={false}
+                  select={false}
+                  variant="standard"
+/>,
+                "item": true,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "autoComplete": "billing address-line2",
+                  "fullWidth": true,
+                  "id": "addiress2",
+                  "label": "Address line 2",
+                  "name": "addiress2",
+                  "required": false,
+                  "select": false,
+                  "variant": "standard",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TextField
+                  autoComplete="billing address-level2"
+                  fullWidth={true}
+                  id="city"
+                  label="City"
+                  name="city"
+                  required={true}
+                  select={false}
+                  variant="standard"
+/>,
+                "item": true,
+                "sm": 6,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "autoComplete": "billing address-level2",
+                  "fullWidth": true,
+                  "id": "city",
+                  "label": "City",
+                  "name": "city",
+                  "required": true,
+                  "select": false,
+                  "variant": "standard",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TextField
+                  fullWidth={true}
+                  id="state"
+                  label="State/Province/Region"
+                  name="state"
+                  required={false}
+                  select={false}
+                  variant="standard"
+/>,
+                "item": true,
+                "sm": 6,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "fullWidth": true,
+                  "id": "state",
+                  "label": "State/Province/Region",
+                  "name": "state",
+                  "required": false,
+                  "select": false,
+                  "variant": "standard",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TextField
+                  autoComplete="billing postal-code"
+                  fullWidth={true}
+                  id="zip"
+                  label="Zip / Postal code"
+                  name="zip"
+                  required={true}
+                  select={false}
+                  variant="standard"
+/>,
+                "item": true,
+                "sm": 6,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "autoComplete": "billing postal-code",
+                  "fullWidth": true,
+                  "id": "zip",
+                  "label": "Zip / Postal code",
+                  "name": "zip",
+                  "required": true,
+                  "select": false,
+                  "variant": "standard",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TextField
+                  autoComplete="billing country"
+                  fullWidth={true}
+                  id="country"
+                  label="Country"
+                  name="country"
+                  required={true}
+                  select={false}
+                  variant="standard"
+/>,
+                "item": true,
+                "sm": 6,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "autoComplete": "billing country",
+                  "fullWidth": true,
+                  "id": "country",
+                  "label": "Country",
+                  "name": "country",
+                  "required": true,
+                  "select": false,
+                  "variant": "standard",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(FormControlLabel)
+                  control={
+                                    <WithStyles(Checkbox)
+                                                      color="secondary"
+                                                      name="saveAddress"
+                                                      value="yes"
+                                    />
+                  }
+                  label="Use this address for payment details"
+/>,
+                "item": true,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "control": <WithStyles(Checkbox)
+                    color="secondary"
+                    name="saveAddress"
+                    value="yes"
+/>,
+                  "label": "Use this address for payment details",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

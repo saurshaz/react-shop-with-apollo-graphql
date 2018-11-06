@@ -1,0 +1,683 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddPage component test 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Apollo(AddPage)
+    mutate={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": [Function],
+      "ignoreResults": true,
+      "mutation": Object {
+        "definitions": Array [
+          Object {
+            "directives": Array [],
+            "kind": "OperationDefinition",
+            "name": Object {
+              "kind": "Name",
+              "value": "newOrderItem",
+            },
+            "operation": "mutation",
+            "selectionSet": Object {
+              "kind": "SelectionSet",
+              "selections": Array [
+                Object {
+                  "alias": undefined,
+                  "arguments": Array [
+                    Object {
+                      "kind": "Argument",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "description",
+                      },
+                      "value": Object {
+                        "kind": "Variable",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "description",
+                        },
+                      },
+                    },
+                    Object {
+                      "kind": "Argument",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "miniDescription",
+                      },
+                      "value": Object {
+                        "kind": "Variable",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "miniDescription",
+                        },
+                      },
+                    },
+                    Object {
+                      "kind": "Argument",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "discount",
+                      },
+                      "value": Object {
+                        "kind": "Variable",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "discount",
+                        },
+                      },
+                    },
+                    Object {
+                      "kind": "Argument",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "price",
+                      },
+                      "value": Object {
+                        "kind": "Variable",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "price",
+                        },
+                      },
+                    },
+                    Object {
+                      "kind": "Argument",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "images",
+                      },
+                      "value": Object {
+                        "fields": Array [
+                          Object {
+                            "kind": "ObjectField",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "thumb",
+                            },
+                            "value": Object {
+                              "block": false,
+                              "kind": "StringValue",
+                              "value": "https://lorempixel.com/400/200/sports/shop-me-here/",
+                            },
+                          },
+                          Object {
+                            "kind": "ObjectField",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "small",
+                            },
+                            "value": Object {
+                              "block": false,
+                              "kind": "StringValue",
+                              "value": "https://lorempixel.com/600/400/sports/shop-me-here/",
+                            },
+                          },
+                          Object {
+                            "kind": "ObjectField",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "large",
+                            },
+                            "value": Object {
+                              "block": false,
+                              "kind": "StringValue",
+                              "value": "https://lorempixel.com/1200/800/sports/shop-me-here/",
+                            },
+                          },
+                        ],
+                        "kind": "ObjectValue",
+                      },
+                    },
+                  ],
+                  "directives": Array [],
+                  "kind": "Field",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "createOrderItem",
+                  },
+                  "selectionSet": Object {
+                    "kind": "SelectionSet",
+                    "selections": Array [
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "id",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "description",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "miniDescription",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "images",
+                        },
+                        "selectionSet": Object {
+                          "kind": "SelectionSet",
+                          "selections": Array [
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "thumb",
+                              },
+                              "selectionSet": undefined,
+                            },
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "small",
+                              },
+                              "selectionSet": undefined,
+                            },
+                            Object {
+                              "alias": undefined,
+                              "arguments": Array [],
+                              "directives": Array [],
+                              "kind": "Field",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "large",
+                              },
+                              "selectionSet": undefined,
+                            },
+                          ],
+                        },
+                      },
+                    ],
+                  },
+                },
+              ],
+            },
+            "variableDefinitions": Array [
+              Object {
+                "defaultValue": undefined,
+                "kind": "VariableDefinition",
+                "type": Object {
+                  "kind": "NonNullType",
+                  "type": Object {
+                    "kind": "NamedType",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "String",
+                    },
+                  },
+                },
+                "variable": Object {
+                  "kind": "Variable",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "description",
+                  },
+                },
+              },
+              Object {
+                "defaultValue": undefined,
+                "kind": "VariableDefinition",
+                "type": Object {
+                  "kind": "NonNullType",
+                  "type": Object {
+                    "kind": "NamedType",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "String",
+                    },
+                  },
+                },
+                "variable": Object {
+                  "kind": "Variable",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "miniDescription",
+                  },
+                },
+              },
+              Object {
+                "defaultValue": undefined,
+                "kind": "VariableDefinition",
+                "type": Object {
+                  "kind": "NonNullType",
+                  "type": Object {
+                    "kind": "NamedType",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "Int",
+                    },
+                  },
+                },
+                "variable": Object {
+                  "kind": "Variable",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "discount",
+                  },
+                },
+              },
+              Object {
+                "defaultValue": undefined,
+                "kind": "VariableDefinition",
+                "type": Object {
+                  "kind": "NonNullType",
+                  "type": Object {
+                    "kind": "NamedType",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "Int",
+                    },
+                  },
+                },
+                "variable": Object {
+                  "kind": "Variable",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "price",
+                  },
+                },
+              },
+            ],
+          },
+        ],
+        "kind": "Document",
+        "loc": Object {
+          "end": 568,
+          "start": 0,
+        },
+      },
+      "variables": undefined,
+    },
+    "ref": null,
+    "rendered": [Function],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": [Function],
+        "ignoreResults": true,
+        "mutation": Object {
+          "definitions": Array [
+            Object {
+              "directives": Array [],
+              "kind": "OperationDefinition",
+              "name": Object {
+                "kind": "Name",
+                "value": "newOrderItem",
+              },
+              "operation": "mutation",
+              "selectionSet": Object {
+                "kind": "SelectionSet",
+                "selections": Array [
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [
+                      Object {
+                        "kind": "Argument",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "description",
+                        },
+                        "value": Object {
+                          "kind": "Variable",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "description",
+                          },
+                        },
+                      },
+                      Object {
+                        "kind": "Argument",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "miniDescription",
+                        },
+                        "value": Object {
+                          "kind": "Variable",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "miniDescription",
+                          },
+                        },
+                      },
+                      Object {
+                        "kind": "Argument",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "discount",
+                        },
+                        "value": Object {
+                          "kind": "Variable",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "discount",
+                          },
+                        },
+                      },
+                      Object {
+                        "kind": "Argument",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "price",
+                        },
+                        "value": Object {
+                          "kind": "Variable",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "price",
+                          },
+                        },
+                      },
+                      Object {
+                        "kind": "Argument",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "images",
+                        },
+                        "value": Object {
+                          "fields": Array [
+                            Object {
+                              "kind": "ObjectField",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "thumb",
+                              },
+                              "value": Object {
+                                "block": false,
+                                "kind": "StringValue",
+                                "value": "https://lorempixel.com/400/200/sports/shop-me-here/",
+                              },
+                            },
+                            Object {
+                              "kind": "ObjectField",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "small",
+                              },
+                              "value": Object {
+                                "block": false,
+                                "kind": "StringValue",
+                                "value": "https://lorempixel.com/600/400/sports/shop-me-here/",
+                              },
+                            },
+                            Object {
+                              "kind": "ObjectField",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "large",
+                              },
+                              "value": Object {
+                                "block": false,
+                                "kind": "StringValue",
+                                "value": "https://lorempixel.com/1200/800/sports/shop-me-here/",
+                              },
+                            },
+                          ],
+                          "kind": "ObjectValue",
+                        },
+                      },
+                    ],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "createOrderItem",
+                    },
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "id",
+                          },
+                          "selectionSet": undefined,
+                        },
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "description",
+                          },
+                          "selectionSet": undefined,
+                        },
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "miniDescription",
+                          },
+                          "selectionSet": undefined,
+                        },
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "images",
+                          },
+                          "selectionSet": Object {
+                            "kind": "SelectionSet",
+                            "selections": Array [
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "thumb",
+                                },
+                                "selectionSet": undefined,
+                              },
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "small",
+                                },
+                                "selectionSet": undefined,
+                              },
+                              Object {
+                                "alias": undefined,
+                                "arguments": Array [],
+                                "directives": Array [],
+                                "kind": "Field",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "large",
+                                },
+                                "selectionSet": undefined,
+                              },
+                            ],
+                          },
+                        },
+                      ],
+                    },
+                  },
+                ],
+              },
+              "variableDefinitions": Array [
+                Object {
+                  "defaultValue": undefined,
+                  "kind": "VariableDefinition",
+                  "type": Object {
+                    "kind": "NonNullType",
+                    "type": Object {
+                      "kind": "NamedType",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "String",
+                      },
+                    },
+                  },
+                  "variable": Object {
+                    "kind": "Variable",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "description",
+                    },
+                  },
+                },
+                Object {
+                  "defaultValue": undefined,
+                  "kind": "VariableDefinition",
+                  "type": Object {
+                    "kind": "NonNullType",
+                    "type": Object {
+                      "kind": "NamedType",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "String",
+                      },
+                    },
+                  },
+                  "variable": Object {
+                    "kind": "Variable",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "miniDescription",
+                    },
+                  },
+                },
+                Object {
+                  "defaultValue": undefined,
+                  "kind": "VariableDefinition",
+                  "type": Object {
+                    "kind": "NonNullType",
+                    "type": Object {
+                      "kind": "NamedType",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "Int",
+                      },
+                    },
+                  },
+                  "variable": Object {
+                    "kind": "Variable",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "discount",
+                    },
+                  },
+                },
+                Object {
+                  "defaultValue": undefined,
+                  "kind": "VariableDefinition",
+                  "type": Object {
+                    "kind": "NonNullType",
+                    "type": Object {
+                      "kind": "NamedType",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "Int",
+                      },
+                    },
+                  },
+                  "variable": Object {
+                    "kind": "Variable",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "price",
+                    },
+                  },
+                },
+              ],
+            },
+          ],
+          "kind": "Document",
+          "loc": Object {
+            "end": 568,
+            "start": 0,
+          },
+        },
+        "variables": undefined,
+      },
+      "ref": null,
+      "rendered": [Function],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
